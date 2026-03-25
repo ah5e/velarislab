@@ -11,4 +11,4 @@ Expand-Archive -Path $zip -DestinationPath $folder -Force
 
 Write-Host "Launching..." -ForegroundColor Green
 
-Start-Process "$folder\VELARIS Premium.exe"
+Start-Process "$folder\VELARIS\VELARIS Premium.exe"
